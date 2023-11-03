@@ -1,0 +1,17 @@
+export const spacing = {
+  none: "0",
+  xxsmall: "4px",
+  xsmall: "8px",
+  small: "12px",
+  medium: "16px",
+  large: "20px",
+  xlarge: "32px",
+  xxlarge: "40px",
+  auto: "auto",
+  full: "100%",
+  fit: "fit-content",
+  max: "max-content",
+  min: "min-content",
+  viewHeight: "100vh",
+  viewWidth: "100vw",
+};

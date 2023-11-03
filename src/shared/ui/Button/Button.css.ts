@@ -1,13 +1,17 @@
-import { style } from '@vanilla-extract/css'
+import { style } from "@vanilla-extract/css";
+import { vars } from "~/styles/theme.css";
 
 export const button = style({
-  borderRadius: '8px',
-  border: '1px solid lightgrey',
-  padding: '0.6em 1.2em',
-  fontSize: '1em',
-  fontWeight: '500',
-  fontFamily: 'inherit',
-  backgroundColor: '#fff',
-  cursor: 'pointer',
-  //   transition: "borderColor 0.25s",
-})
+  border: "1px solid",
+  fontSize: "1em",
+  backgroundColor: vars.color.white,
+  color: vars.color.black,
+  fontFamily: vars.font.sans,
+  borderRadius: vars.border.radius.small,
+  paddingTop: vars.spacing.xsmall,
+  paddingBottom: vars.spacing.xsmall,
+  paddingLeft: vars.spacing.medium,
+  paddingRight: vars.spacing.medium,
+  cursor: "pointer",
+  transition: "borderColor 0.25s",
+});
